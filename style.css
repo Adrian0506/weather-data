@@ -1,0 +1,79 @@
+body {
+    background-color: #2980b9;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+._temp { 
+    position: relative;
+    top: 20rem;
+    left: 49rem;
+}
+
+._weather {
+    position: relative;
+    top: 20rem;
+    left: 35rem;
+}
+
+:root {
+
+    --input-color: #99A3BA;
+    --input-border: #CDD9ED;
+    --input-background: #fff;
+    --input-placeholder: #CBD1DC;
+
+    --input-border-focus: #275EFE;
+
+    --group-color: var(--input-color);
+    --group-border: var(--input-border);
+    --group-background: #EEF4FF;
+
+    --group-color-focus: #fff;
+    --group-border-focus: var(--input-border-focus);
+    --group-background-focus: #678EFE;
+
+}
+
+input {
+    position: relative;
+    display: block;
+    width: 30rem;
+     top: 20rem;
+    left: 37rem;
+    padding: 8px 16px;
+    line-height: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: var(--input-color);
+    border: 1px solid var(--input-border);
+    background: var(--input-background);
+    transition: border .3s ease;
+}
+
+button {
+    position: relative;
+    top: 23rem;
+    left: 48rem;
+ display:inline-block;
+ padding:0.35em 1.2em;
+ border:0.1em solid #FFFFFF;
+ margin:0 0.3em 0.3em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'Roboto',sans-serif;
+ font-weight:300;
+ color:black;
+ text-align:center;
+ transition: all 0.2s;
+}
+ol {
+    position: relative;
+    top: 30rem;
+    left: 30rem;
+}
