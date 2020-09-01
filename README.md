@@ -1,7 +1,8 @@
 # weather-data
+Search for citys to view the tempatures and other stats.
 
-You need moesifs cores extentison for this to work.
-
-search a city and get the weather and city name data and a list of other citys with similar names.
-
-Current bugs: Only works when you search the city twice
+WIP.
+TODO:
+Fix up CSS.
+A function that allows user to click on a certain city
+A limit of results that show up with each search.
